@@ -24,33 +24,33 @@ public class FunciónRandom {
         numrandom = random.nextInt(14);
         while(c == 1) {
          switch (numrandom) {
-              case 0:System.out.println("Ramon es gay");
+              case 0:System.out.println("Ramon");
               break;
-              case 1:System.out.println("Blaking es gay");
+              case 1:System.out.println("Blaking");
               break;
-              case 2:System.out.println("Desgold es gay");
+              case 2:System.out.println("Desgold");
               break;
-              case 3:System.out.println("Atraxer es gay");
+              case 3:System.out.println("Atraxer");
               break;
-              case 4:System.out.println("Maximo es gay");
+              case 4:System.out.println("Maximo");
               break;
-              case 5:System.out.println("Miguel es gay");
+              case 5:System.out.println("Miguel");
               break;
-              case 6:System.out.println("Cebolla es gay");
+              case 6:System.out.println("Cebolla");
               break;
-              case 7:System.out.println("Naxo es gay");
+              case 7:System.out.println("Naxo");
               break;
-              case 8:System.out.println("Tivi es gay");
+              case 8:System.out.println("Tivi");
               break;
-              case 9:System.out.println("Thomas es gay");
+              case 9:System.out.println("Thomas");
               break;
-              case 10:System.out.println("Anx es gay");
+              case 10:System.out.println("Anx");
               break;
-              case 11:System.out.println("Madre de Anx es gay");
+              case 11:System.out.println("Madre de Anx");
               break;
-              case 12:System.out.println("Sushi es gay");
+              case 12:System.out.println("Sushi");
               break;
-              case 13:System.out.println("Valery es gay");
+              case 13:System.out.println("Valery");
               break;
             }   
         }
