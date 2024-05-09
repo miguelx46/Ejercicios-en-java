@@ -18,17 +18,16 @@ public class PracticaFor {
     public static void main(String[] args) {
         // Leer 10 números y obtener su cubo y su cuadrado.
         Scanner l = new Scanner(System.in);
-        int num, cuad, cub,sumnum;
-        sumnum = 0;
+        int num, cuad, cub;
+        
         for (int cnum = 1; cnum <=10; cnum++) {
             System.out.println("Digite un número");
             num = l.nextInt();
-            sumnum = sumnum + num;
+            cuad = (int) Math.pow(num, 2);
+            cub = (int) Math.pow(num, 3);
+        System.out.println("El cuadrado del número es:" +cuad);
+        System.out.println("El cubo del número es:" +cub);
         } 
-        cuad = (int) Math.pow(sumnum, 2);
-        cub = (int) Math.pow(sumnum, 3);
-        System.out.println("El cuadrado de la suma de todos los números es:" +cuad);
-        System.out.println("El cubo de la suma de todos los números es:" +cub);
     }
     
 }
